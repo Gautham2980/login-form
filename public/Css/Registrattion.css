@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+#reg{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg-image.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.reg-container{
+   
+    width:100%;
+    max-width: 650px;
+    background: rgba(0,0,0,0.5);
+    padding: 28px;
+    margin:0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    border-bottom: 1px solid white;
+}
+
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-input:nth-child(2n){
+    justify-content: end;
+
+}
+ .user-input{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width:50%;
+    padding-bottom: 15px;
+}
+
+.user-input label{
+    width:95%;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.gender-title{
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.gender-category{
+    margin: 15px 0;
+    color:white
+}
+
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit input{
+    cursor: pointer;
+}
+
+.form-submit input{
+    margin-top: 40px;
+}
+.form-submit input{
+    display: block;
+    width:100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgba(209,209,209);
+    background-color: rgba(63,114,76,0.7);
+}
+.form-submit input:hover{
+    background-color: rgba(56,204,93,0.7);
+    color: rgba(255,255,255);
+}
+span{
+    color: red;
+}
+ 
